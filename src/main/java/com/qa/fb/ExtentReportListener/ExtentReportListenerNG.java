@@ -62,7 +62,7 @@ public class ExtentReportListenerNG implements IReporter {
 			}
 		}
 	}
-
+     // to get time
 	private Date getTime(long millis) {
 		Calendar calendar = Calendar.getInstance();
 		calendar.setTimeInMillis(millis);
